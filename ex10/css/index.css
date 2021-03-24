@@ -3,14 +3,19 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   background: #181818;
   color: #fff;
   overflow: hidden;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 300;
 }
 
@@ -26,12 +31,12 @@ h1,h2,h3,h4,h5,h6 {
   align-items: center;
   height: 100vh;
   justify-content: center;
+  width: 40%;
 }
 
 #right {
   flex: 1;
 }
-
 
 #signin {
   display: flex;
@@ -76,11 +81,13 @@ h1,h2,h3,h4,h5,h6 {
   width: 100%;
 }
 
-#signin .secondary-btn,.links,.or {
+#signin .secondary-btn,
+.links,
+.or {
   width: 60%;
 }
 
-#signin .links a {
+#signin #links a {
   display: block;
   color: #0083bc;
   text-decoration: none;
@@ -100,7 +107,7 @@ h1,h2,h3,h4,h5,h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('https://image.ibb.co/cO9Lxq/login-bg.jpg') no-repeat center center / cover;
+  background: url("https://image.ibb.co/cO9Lxq/login-bg.jpg") no-repeat center center / cover;
   height: 100vh;
   text-align: center;
 }
@@ -129,7 +136,6 @@ h1,h2,h3,h4,h5,h6 {
   text-decoration: underline;
 }
 
-
 .primary-btn {
   padding: 0.7rem 1rem;
   height: 2.7rem;
@@ -146,17 +152,16 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .secondary-btn {
-    padding: 0.7rem 1rem;
-    height: 2.7rem;
-    display: block;
-    border: 0;
-    border-radius: 2px;
-    font-weight: 500;
-    background: #545454;
-    color: #fff;
-    text-decoration: none;
-    cursor: pointer;
-    text-align: center;
-    transition: all 0.5s;
+  padding: 0.7rem 1rem;
+  height: 2.7rem;
+  display: block;
+  border: 0;
+  border-radius: 2px;
+  font-weight: 500;
+  background: #545454;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.5s;
 }
-
